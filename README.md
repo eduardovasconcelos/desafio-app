@@ -10,4 +10,5 @@ Requisitos para execução:
 3) Comando para rodar o projeto.
     
     3.1) Dentro da pasta do projeto   
-        ng serve --proxy-config proxy.conf.json
+           
+           ng serve --proxy-config proxy.conf.json
