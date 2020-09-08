@@ -37,7 +37,10 @@ export class UserComponent implements OnInit {
           null, 
           null))});      
     },
-    err => {      
+    err => {    
+      if (err.status == 401) {
+        this.router.navigate(["/login"]);
+      }  
     });
   }
 
@@ -63,7 +66,10 @@ export class UserComponent implements OnInit {
       this.sucesso = false;      
       if (err.status == '400') {
         this.mensagem = err.error;
-      } else {
+      } else if (err.status == 401) {
+        this.router.navigate(["/login"]);
+      }  
+      else {
         this.error = true;
       }
     });
