@@ -10,7 +10,7 @@ Requisitos para execução:
 3) Comando para rodar o projeto.
     
     3.1) Dentro da pasta do projeto              
-           
+           npm install
            ng serve --proxy-config proxy.conf.json
            
 4) Usuários cadastrados
