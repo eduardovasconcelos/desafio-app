@@ -9,6 +9,20 @@ Requisitos para execução:
 
 3) Comando para rodar o projeto.
     
-    3.1) Dentro da pasta do projeto   
+    3.1) Dentro da pasta do projeto              
            
            ng serve --proxy-config proxy.conf.json
+           
+4) Usuários cadastrados
+
+    4.1) Usuário 1
+  
+        username:eduardo
+        senha:testes
+        ADMINISTRADOR
+  
+    4.2) Usuário 2
+ 
+        username:poliana
+        senha:poliana
+        USUÁRIO COMUM (SEM PRIVILÉGIOS)
